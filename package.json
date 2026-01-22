@@ -1,0 +1,32 @@
+{
+  "name": "sistemalourdes",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento para Confeitaria Lourdes",
+  "main": "index.html",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build not required for static site'",
+    "start": "vercel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pontenovense/SistemaLourdes.git"
+  },
+  "keywords": [
+    "confeitaria",
+    "bakery",
+    "management",
+    "system"
+  ],
+  "author": "Sistema Lourdes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pontenovense/SistemaLourdes/issues"
+  },
+  "homepage": "https://github.com/Pontenovense/SistemaLourdes#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.91.0"
+  }
+}
