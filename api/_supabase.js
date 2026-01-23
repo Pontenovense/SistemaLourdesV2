@@ -1,4 +1,4 @@
-const { createClient } = require('@supabase/supabase-js');
+import { createClient } from '@supabase/supabase-js';
 
 // Configuração do Supabase
 const supabaseUrl = process.env.SUPABASE_URL;
@@ -16,4 +16,4 @@ const supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey, {
   }
 });
 
-module.exports = { supabase, supabaseAdmin };
+export { supabase, supabaseAdmin };

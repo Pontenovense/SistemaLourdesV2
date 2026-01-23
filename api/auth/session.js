@@ -1,4 +1,4 @@
-const { supabaseAdmin } = require('../_supabase');
+import { supabaseAdmin } from '../_supabase.js';
 
 export default async function handler(req, res) {
   // Apenas método GET é permitido
