@@ -1,18 +1,8 @@
 {
-  "version": 2,
+  "version": 1,
   "functions": {
     "api/**/*.js": {
-      "runtime": "@vercel/node"
+      "runtime": "now-node@1.0.0"
     }
-  },
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  }
 }
